@@ -1,0 +1,309 @@
+/*
+ Theme Name:   Crafted by Hilary
+ Theme URI:    https://www.understrap.com
+ Description:  UnderStrap Child Theme
+ Author:       A-Z Web Solutions
+ Author URI:   http://www.azwebsolutions.co.nz
+ Template:     understrap
+ Version:      0.2.2
+ License:      Commercial
+ Text Domain:  understrap-child
+ Tags: one-column, custom-menu, featured-images, theme-options, translation-ready.
+*/
+
+body {
+    font-family: 'Khula', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+a {
+    color: #000000;
+}
+a:hover {
+    color: #000000;
+    opacity: 0.9;
+    text-decoration: none;
+}
+p {
+    margin-bottom: 8px;
+}
+h1 {
+    font-size:25px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#header {
+    padding-top: 20px;
+    height: 80px;
+}
+.home #header:before {
+    background-image: url("images/banner-overlay.png");
+    content: "";
+    position: absolute;
+    width:100%;
+    left: 0;
+    top: 0;
+    height: 207px;
+    z-index: 97;
+}
+#header .logo {
+    position: absolute;
+    z-index: 99; }
+
+#cbh-menu-wrapper {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    z-index: 98;
+    text-align: right; }
+
+#mega-menu-wrap-primary #mega-menu-primary {
+    text-align: right; }
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+    text-transform: uppercase; }
+#mega-menu-wrap-primary {
+    background-color: transparent;
+}
+.home-banner {
+    text-align: center;
+    height: 100vh !important;
+    position: absolute;
+    top: -80px;
+    z-index: 1;
+    width: 100%;
+}
+.home #page-wrapper {
+    height: 100vh !important;
+}
+.home-banner .inner-wrapper {
+    padding: 40px 60px;
+    position: absolute;
+    background-color: rgba(255,255,255,0.3);
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.so-widget-sow-hero-default-a2c12170b4d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper p {
+    color: #000000;
+    margin: 0 0 18px;
+    font-size: 18px;
+    line-height: 22px;
+    text-shadow: none;
+}
+.banner-height {
+    height: 100vh !important;
+}
+.so-widget-sow-hero-default-a2c12170b4d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper {
+    padding: 0;
+    position: relative;
+    height: 100vh !important;
+}
+.sow-slider-base ul.sow-slider-images {
+    padding: 0;
+}
+#main {
+    margin: 100px auto 0;
+    width: 1200px;
+    min-height: 100vh;
+}
+.home #main {
+    margin: 0;
+    width: 100%;
+}
+.page-id-8 #main {
+    width: 100%;
+}
+.form-control {
+    margin-top: 5px;
+}
+.wpcf7-form label {
+    width: 100%;
+}
+.wpcf7-submit {
+    height: 40px;
+}
+#footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#footer ul li {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+#footer ul.menu li:nth-child(1):after {
+    content: "|";
+    position: absolute;
+    top: -1px;
+    right: -22px;
+}
+#footer ul.menu li a {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+}
+#footer ul.copyright {
+    text-align: right;
+}
+#footer ul.copyright li a {
+    color: #999999;
+}
+#footer ul.copyright li {
+    color: #999999;
+}
+#footer ul.copyright li.facebook a, #footer ul.copyright li.insta a {
+    color: #000000;
+}
+#footer ul.copyright li {
+    margin-right: 20px;
+}
+#footer ul.copyright li.facebook {
+    margin-right: 5px;
+}
+#footer ul.copyright li.insta {
+    margin-right: 0;
+}
+.wrapper-404 h1 {
+    margin-bottom: 20px;
+}
+blockquote {
+    font-size: 20px;
+    line-height: 24px;
+    font-style: italic;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.gallery .gallery-item {
+    float: left;
+    width:25%;
+}
+.page-id-8 #page-wrapper .container-fluid {
+    width:1200px;
+}
+.gallery .gallery-item img {
+    max-width: 100%;
+    width:100%;
+    height: auto;
+}
+.gallery .gallery-icon {
+    margin: 0 5px;
+}
+.gallery figure {
+    margin-bottom: 10px;
+}
+#post-8 .gallery-caption {
+    display: none;
+}
+@media screen and (max-width: 1199px) {
+    .page-id-8 #page-wrapper .container-fluid {
+        width:100%;
+    }
+}
+@media screen and (max-width: 1559px) {
+    #main {
+        width: 100%;
+    }
+}
+/* TABLET */
+@media screen and (max-width: 979px) {
+    body {
+        font-size: 14px;
+    }
+    .so-widget-sow-hero-default-a2c12170b4d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    #footer ul.menu li a {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    #footer {
+        text-align: center;
+    }
+    #footer ul.copyright {
+        text-align: center;
+        margin-top: 20px;
+    }
+    #footer ul.copyright li {
+        margin-right: 0;
+    }
+    #footer ul.copyright li:nth-child(1) {
+        display: block;
+        margin-bottom: 10px;
+    }
+    #main {
+        margin-top: 50px;
+    }
+    .gallery .gallery-item {
+        float: left;
+        width:50%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .nopadding {
+        padding: 0 !important;
+    }
+    #header .logo {
+        position: relative;
+        text-align: center;
+        display: block;
+    }
+    #cbh-menu-wrapper {
+        margin-top: 10px;
+    }
+    .home-banner .inner-wrapper {
+        padding: 20px 30px;
+        background-color: #ffffff;
+        top: auto;
+        bottom: 0;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+    .logo-big-wrapper {
+        display: none;
+    }
+    .so-widget-sow-hero-default-a2c12170b4d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+    #header {
+        height: 127px;
+    }
+    .home #header::before {
+        background-image: none;
+    }
+    .home-banner {
+        top: 0;
+    }
+    #main {
+        margin-top: 20px;
+    }
+    #footer {
+        text-align: left;
+    }
+    #mega-menu-wrap-primary #mega-menu-primary {
+        box-shadow: 0px 5px 5px #e4e4e4;
+    }
+    .gallery .gallery-item {
+        float: left;
+        width:100%;
+    }
+    .gallery-icon {
+        text-align: center;
+    }
+}
